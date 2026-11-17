@@ -1,0 +1,14 @@
+# solver output and models: never commit these
+out_*/
+*.sol
+*.mps
+*.mps.gz
+*.lp
+!examples/tiny_schedule.lp
+*.log
+work/
+mm_root/
+cuopt_src/
+.venv/
+__pycache__/
+.DS_Store
